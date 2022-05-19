@@ -1,0 +1,388 @@
+.bodyContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.recomendarForm{
+margin-top: 9rem;
+background-color: white;
+margin-left: auto;
+font-size: 0.8rem;
+}
+
+.cNuevo{
+  margin: 0 auto;
+  max-width:fit-content;
+  background-color: white;
+}
+
+.imgCNuevo {
+  margin: 0 auto;
+}
+
+.navbarCus{
+font-size: 1.2em;
+background-color: white;
+
+}
+
+.inputC{
+margin-right: 2rem;
+margin-left: 0.5rem;
+}
+
+.navCentral{
+background-color: white;
+}
+
+.container{
+margin-top: 30px;
+}
+
+#navbarDropdown{
+font-size: 1.2em;
+color: #455a64;
+}
+
+
+.navbar-brand{
+  font-family: arial;
+  font-weight: 600;
+}
+  
+  /*
+  card de destinos 
+  */
+  .product {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .product .caption {
+    margin-top: 15px;
+  }
+  
+  .product .caption h6 {
+    color: #455a64;
+  }
+  
+  .product .caption .price + .price {
+    margin-left: 15px;
+  }
+  
+  .product.tumbnail {
+    box-shadow: 0 5px 25px 0 transparent;
+    transition: 0.3s linear;
+    padding-top: 0;
+  }
+  
+  .product.tumbnail img:hover {
+    box-shadow: 0 5px 25px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .single-product span {
+    display: inline-block;
+  }
+  
+  .single-product .rating .fa-star, .single-product .rating .fa-star-o {
+    font-size: 16px;
+    color: #f7d4a0;
+    margin-left: 2px;
+  }
+  
+  .single-product .rating + * {
+    margin-left: 15px;
+  }
+  
+  .single-product h1.h1-variant-2 {
+    margin-bottom: 20px;
+  }
+  
+  .single-product .caption:before {
+    content: '';
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  .single-product .caption span {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  .single-product .caption .price {
+    font-weight: 400;
+  }
+  
+  .single-product .caption .price.sale {
+    color: #e75854;
+    font-size: 33px;
+  }
+  
+  .single-product .caption * + .price {
+    margin-left: 10.8%;
+  }
+  
+  @media (max-width: 1199px) {
+    .single-product .caption * + .price {
+      margin-left: 7.8%;
+    }
+  }
+  
+  .single-product .caption * + .quantity {
+    margin-left: 26px;
+  }
+  
+  .single-product .caption .info-list {
+    border-bottom: 1px solid #f3f3ed;
+    border-top: 1px solid #f3f3ed;
+    font-family: Montserrat, sans-serif;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    text-align: left;
+  }
+  
+  .single-product .caption .info-list dt, .single-product .caption .info-list dd {
+    display: inline-block;
+    line-height: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .single-product .caption .info-list dt {
+    letter-spacing: 0.08em;
+    font-size: 12px;
+    color: #a7b0b4;
+    width: 35%;
+    text-transform: uppercase;
+  }
+  
+  .single-product .caption .info-list dd {
+    font-size: 15px;
+    color: #565452;
+    width: 62.5%;
+  }
+  
+  .single-product .caption .share span.small {
+    margin-top: 9px;
+  }
+  
+  @media (max-width: 991px) {
+    .single-product .caption .share span.small {
+      display: block;
+      margin-bottom: 15px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .single-product .table-mobile tr {
+      padding-top: 0;
+    }
+    .single-product .table-mobile tr:before {
+      display: none;
+    }
+  }
+  
+  .price {
+    display: inline-block;
+    font-size: 15px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    color: #2b2f3e;
+  }
+  
+  .price.sale {
+    color: #e75854;
+  }
+  
+  .price del {
+    color: #b0bec5;
+  }
+  
+  .quantity {
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    font-size: 12px;
+    background: #eceff1;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 82px;
+    height: auto;
+    display: inline-block;
+  }
+  
+  .quantity span {
+    display: inline-block;
+  }
+  
+  .quantity .num {
+    width: 26px;
+  }
+  
+  .quantity [class*='fa-'] {
+    padding-top: 4px;
+    width: 22px;
+    padding-bottom: 4px;
+    color: #b0bec5;
+    cursor: pointer;
+  }
+  
+  .quantity [class*='fa-']:hover {
+    color: #455a64;
+  }
+
+  
+  .global-container{
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f5;
+  }
+  
+  form{
+    padding-top: 10px;
+    font-size: 25px;
+    margin-top: 60px;
+  }
+  
+  .card-title{ 
+    font-weight:600; 
+  }
+  
+  .btn{
+    font-size: 20px;
+    margin-top:20px;
+  }
+  
+  
+  .login-form{ 
+    width:700px;
+    margin:50px;
+  }
+  
+  .sign-up{
+    text-align:center;
+    padding:20px 0 0;
+  }
+  
+  .alert{
+    margin-bottom:-30px;
+    font-size: 13px;
+    margin-top:20px;
+  }
+
+  /* sitemap*/
+
+  .tree li {
+    list-style-type:none;
+    margin:0;
+    padding:10px 5px 0 5px;
+    position:relative
+}
+.tree li::before, 
+.tree li::after {
+    content:'';
+    left:-20px;
+    position:absolute;
+    right:auto
+}
+.tree li::before {
+    border-left:2px solid #000;
+    bottom:50px;
+    height:100%;
+    top:0;
+    width:1px
+}
+.tree li::after {
+    border-top:2px solid #000;
+    height:20px;
+    top:25px;
+    width:25px
+}
+.tree li span {
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border:2px solid #000;
+    border-radius:3px;
+    display:inline-block;
+    padding:3px 8px;
+    text-decoration:none;
+    cursor:pointer;
+}
+.tree>ul>li::before,
+.tree>ul>li::after {
+    border:0
+}
+.tree li:last-child::before {
+    height:27px
+}
+.tree li span:hover {
+    background: hotpink;
+    border:2px solid #94a0b4;
+    }
+
+[aria-expanded="false"] > .expanded,
+[aria-expanded="true"] > .collapsed {
+  display: none;
+}
+    
+/* The side navigation menu */
+.sidebar {
+margin: 0;
+padding: 0;
+width: 200px;
+background-color: #f1f1f1;
+position: fixed;
+height: 100%;
+overflow: auto;
+}
+
+/* Sidebar links */
+.sidebar a {
+display: block;
+color: black;
+padding: 16px;
+text-decoration: none;
+}
+
+/* Active/current link */
+.sidebar a.active {
+background-color: #04AA6D;
+color: white;
+}
+
+/* Links on mouse-over */
+.sidebar a:hover:not(.active) {
+background-color: #555;
+color: white;
+}
+
+/* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+div.content {
+margin-left: 200px;
+padding: 1px 16px;
+height: 1000px;
+}
+
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 700px) {
+.sidebar {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.sidebar a {float: left;}
+div.content {margin-left: 0;}
+}
+
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 400px) {
+.sidebar a {
+  text-align: center;
+  float: none;
+}
+} 
